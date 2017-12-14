@@ -1,0 +1,33 @@
+<html>
+    <body>
+
+        <script type="text/javascript" lang="javascript">
+            
+            let whoisThere=prompt("Who is there?","")
+
+            if(whoisThere=="Admin"){
+                            let password=prompt("Please enter the password","")
+                            if(password==="TheMaster"){
+
+                            alert("Welcome !")
+                            }else if(password===""){
+
+                            alert("Canceled !")
+                            }else if(password!="TheMaster"){
+                    
+                            alert("Wrong password !")
+                
+
+                            }
+            }else  if(whoisThere===""){
+                alert("Canceled !")
+            }else if(whoisThere!="Admin"){
+                
+                alert("I dont know !")
+            }
+
+           
+            
+            </script>
+    </body>
+</html>
